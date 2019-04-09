@@ -11,6 +11,8 @@ public class ViewWelcomeController implements Controller {
 	@Override
 	public ModelAndView handleRequest(HttpServletRequest request
 			, HttpServletResponse response) throws Exception {
+
+		System.out.println("Hiii...");
 		
 		ModelAndView mav=null;
 		mav=new ModelAndView();
